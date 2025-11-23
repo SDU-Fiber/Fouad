@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Fouad Hammam Workforce",
+  "description": "A staff time-tracking and location management system with admin oversight and AI-powered reporting.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
