@@ -1,0 +1,28 @@
+{
+  "name": "teamhub-meeting",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "TeamHub Meeting — the meeting room built for sales teams.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "seed:supabase": "node --experimental-strip-types --env-file-if-exists=.env scripts/seed-supabase.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "lucide-react": "^0.554.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
